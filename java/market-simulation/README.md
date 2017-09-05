@@ -1,1 +1,2 @@
 ## Modelling a simple stock market for use in a game
+* [Blog post](https://engineersinterests.wordpress.com/2016/08/23/modelling-a-simple-stock-market/) written by me, detailing the mathematics behind it and explaining what the code does.
