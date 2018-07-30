@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="XML_Ship_Creator_Tool.exe" version="1.0.0.2" publicKeyToken="272569eafadbd9cf" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="shipCreatorIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="XML_Ship_Creator_Tool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="XML_Ship_Creator_Tool.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XML_Ship_Creator_Tool.exe" size="118272">
+      <assemblyIdentity name="XML_Ship_Creator_Tool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>edoDSMQ6xOD+aUVNMERbybPPGgBmaXqCfnAh6m0iOA4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="shipCreatorIcon.ico" size="32038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E47KrGfNvCendcqMdbN5i2ijs+6M5McPZY41X6WMfrU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XML_Ship_Creator_Tool.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZAC-LAPTOP\zacha_000" issuerKeyHash="e3bc7846820453c1bca6f4ed5d795cba468674b0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D701V07twkWJ/CrW2WR2PWD+1I3ltrYLq3xYbaZt9cM=</DigestValue></Reference></SignedInfo><SignatureValue>EszCby+/34s8Xn5MjCuTY55Y/Rn0Z5EfKHefeERE03hJeJayUYf9GY0qNCUPQYZ9dcuIaM6bjpSfaYLwcOJ0xIKow1fwzhm+3LR5gdCPEabS7wsn53ptF5H05DHsenv7ZCrn5+aJWvxvOtfm32kziC+Bvb7TqFsviipZzx+oU8E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lKkn0+/USVcCVB5nYVSPVTczsAC1yIG951eFot43ItT4fg/9DMRhkmxztd7jfYvoZEyk1e3qOtuQ237aHt3j4Swu8WF9pf9wnqAX4/MBoAFbX52JrXQSZd/qsH380Ffz0l+/u2S38DpsCG1ECMpptpE+06SgfSzuHL2PTRkzIFM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c3f56da66d587cab0bb6b6e58dd4fe603d7664d9d62afc8945c2ed4e5735bd0f" Description="" Url=""><as:assemblyIdentity name="XML_Ship_Creator_Tool.exe" version="1.0.0.2" publicKeyToken="272569eafadbd9cf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZAC-LAPTOP\zacha_000</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KLY7lFqN8FK1+E/ndK8w0Q1yCxU/y+LVnE+47OyCt80=</DigestValue></Reference></SignedInfo><SignatureValue>SR270rsw96hgxfz30kRqpGIc7RFRwXfZqhPVGLlXqJftK048mTtxqqnar4PjGjDpTphQ8RNwX5KCztHI8HKv+tfg20Lchi34iPIGDDQmETOqn2Ayiqo3pt5XGhiapLyB374LaivfIb733yP41aetpYC6gnKsdHb+HrwkB7oHZ38=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lKkn0+/USVcCVB5nYVSPVTczsAC1yIG951eFot43ItT4fg/9DMRhkmxztd7jfYvoZEyk1e3qOtuQ237aHt3j4Swu8WF9pf9wnqAX4/MBoAFbX52JrXQSZd/qsH380Ffz0l+/u2S38DpsCG1ECMpptpE+06SgfSzuHL2PTRkzIFM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQRqSxYKzjMLNP2Fe1vERYkjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAWgBBAEMALQBMAEEAUABUAE8AUABcAHoAYQBjAGgAYQBfADAAMAAwMB4XDTE0MTIwMjEyMzkxNloXDTE1MTIwMjE4MzkxNlowMzExMC8GA1UEAx4oAFoAQQBDAC0ATABBAFAAVABPAFAAXAB6AGEAYwBoAGEAXwAwADAAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlKkn0+/USVcCVB5nYVSPVTczsAC1yIG951eFot43ItT4fg/9DMRhkmxztd7jfYvoZEyk1e3qOtuQ237aHt3j4Swu8WF9pf9wnqAX4/MBoAFbX52JrXQSZd/qsH380Ffz0l+/u2S38DpsCG1ECMpptpE+06SgfSzuHL2PTRkzIFMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCEDTedCKuzav15lVeIuHMmjPfclXdDDsgW3okQ17SUvZUdaW/YtLafsKCbjLIUY2jeLsPxblz6CbpPx1MnLCgtBTGULZj4SLaH3AgRWXzguEPNCsjFAxo0qU42UWEtqMu1AMt+DeXs5B3PpIwAwC7Lqx7y+Dd0uyRm4X3fSqSVOw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

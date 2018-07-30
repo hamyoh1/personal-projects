@@ -1,0 +1,16 @@
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML Ship Creator Tool.vbproj.GenerateResource.Cache
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\XML_Ship_Creator_Tool.exe.config
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\shipCreatorIcon.ico
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\XML_Ship_Creator_Tool.exe.manifest
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\XML_Ship_Creator_Tool.application
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\XML_Ship_Creator_Tool.exe
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\XML_Ship_Creator_Tool.pdb
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\XML_Ship_Creator_Tool.xml
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML_Ship_Creator_Tool.Form1.resources
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML_Ship_Creator_Tool.Resources.resources
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML_Ship_Creator_Tool.exe.manifest
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML_Ship_Creator_Tool.application
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML_Ship_Creator_Tool.exe
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML_Ship_Creator_Tool.xml
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML_Ship_Creator_Tool.pdb
+C:\Users\zacha_000\Documents\Visual Studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\XML Ship Creator Tool.vbprojResolveAssemblyReference.cache

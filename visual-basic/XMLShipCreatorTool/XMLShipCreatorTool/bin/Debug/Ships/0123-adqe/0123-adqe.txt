@@ -1,0 +1,18 @@
+﻿<!-- adqe -->
+<Ship>
+<Name>adqe</Name>
+<ID>0123</ID>
+<Texture>destroyer_ship</Texture>
+<Price>131</Price>
+<Speed>13</Speed>
+<Damage>13</Damage>
+<Health>11</Health>
+<Class>Fighter</Class>
+<ProjecSpeed>131</ProjecSpeed>
+<FiringTimer>13</FiringTimer>
+<ProjectileSprite>projectile3</ProjectileSprite>
+<FireSound>projectile_shoot</FireSound>
+<Description>13</Description>
+<Width>113</Width>
+<Height>113</Height>
+</Ship>

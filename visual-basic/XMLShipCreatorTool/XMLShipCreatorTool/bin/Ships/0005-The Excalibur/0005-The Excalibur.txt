@@ -1,0 +1,23 @@
+﻿<!-- The Excalibur -->
+<Ship>
+<Name>The Excalibur</Name>
+<ID>0005</ID>
+<Texture>destroyer_ship</Texture>
+<Price>1500</Price>
+<Speed>15</Speed>
+<Damage>10</Damage>
+<Health>150</Health>
+<Class>Striker</Class>
+<ProjecSpeed>25</ProjecSpeed>
+<FiringTimer>10</FiringTimer>
+<ProjectileSprite>projectile</ProjectileSprite>
+<FireSound>projectile_shoot</FireSound>
+<ExplosionTexture>defaultexplosionimage</ExplosionTexture>
+<ExplosionSound>defaultexplosionsound</ExplosionSound>
+<ExplosionWidth>64</ExplosionWidth>
+<ExplosionHeight>64</ExplosionHeight>
+<ExplosionTimer>50</ExplosionTimer>
+<Description>A legendary ship whose name resonates to even the darkest depths of the universe.</Description>
+<Width>128</Width>
+<Height>128</Height>
+</Ship>

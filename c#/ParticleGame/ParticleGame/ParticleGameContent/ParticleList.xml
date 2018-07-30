@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<particles>
+  <!-- FIRE 1-->
+  <Particle>
+    <tag>fastshift</tag>
+    <tag2>fade</tag2>
+    <minSize>1</minSize>
+    <maxSize>10</maxSize>
+    <DoesFall>false</DoesFall>
+    <influenceX>3</influenceX>
+    <influenceY>6f</influenceY>
+    <spawnPosX>2</spawnPosX>
+    <spawnPosY>2</spawnPosY>
+    <AliveTime>100</AliveTime>
+    <ColorR>255</ColorR>
+    <ColorG>0</ColorG>
+    <ColorB>0</ColorB>
+    <ColorA>255</ColorA>
+  </Particle>
+  <!-- WATER-->
+  <Particle>
+    <tag>fastshift</tag>
+    <tag2></tag2>
+    <minSize>1</minSize>
+    <maxSize>7</maxSize>
+    <DoesFall>true</DoesFall>
+    <influenceX>3</influenceX>
+    <influenceY>0</influenceY>
+    <spawnPosX>2</spawnPosX>
+    <spawnPosY>2</spawnPosY>
+    <AliveTime>100</AliveTime>
+    <ColorR>0</ColorR>
+    <ColorG>0</ColorG>
+    <ColorB>255</ColorB>
+    <ColorA>255</ColorA>
+  </Particle>
+</particles>

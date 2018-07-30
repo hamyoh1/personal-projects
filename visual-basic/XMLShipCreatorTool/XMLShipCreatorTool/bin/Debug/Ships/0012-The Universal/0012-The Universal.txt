@@ -1,0 +1,18 @@
+﻿<!-- The Universal -->
+<Ship>
+<Name>The Universal</Name>
+<ID>0012</ID>
+<Texture>destroyer_ship</Texture>
+<Price>1500</Price>
+<Speed>25</Speed>
+<Damage>18</Damage>
+<Health>150</Health>
+<Class>Striker</Class>
+<ProjecSpeed>25</ProjecSpeed>
+<FiringTimer>15</FiringTimer>
+<ProjectileSprite>projectile3</ProjectileSprite>
+<FireSound>projectile_shoot</FireSound>
+<Description>Blah Blah Blah.</Description>
+<Width>128</Width>
+<Height>128</Height>
+</Ship>
