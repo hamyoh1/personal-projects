@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>test_char.png</Source>
+      <Name>test_char</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\test_char.xnb</Output>
+      <Time>2014-05-18T17:11:19.0153952+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Buttons\start.png</Source>
+      <Name>Menu\Buttons\start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Buttons\start.xnb</Output>
+      <Time>2014-05-12T22:49:10.5587612+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Buttons\start_h.png</Source>
+      <Name>Menu\Buttons\start_h</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Buttons\start_h.xnb</Output>
+      <Time>2014-05-12T22:49:45.4897591+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Buttons\exit.png</Source>
+      <Name>Menu\Buttons\exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Buttons\exit.xnb</Output>
+      <Time>2014-05-12T22:54:22.9176271+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Buttons\exit_h.png</Source>
+      <Name>Menu\Buttons\exit_h</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Buttons\exit_h.xnb</Output>
+      <Time>2014-05-12T22:54:45.8469386+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Buttons\title.png</Source>
+      <Name>Menu\Buttons\title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Buttons\title.xnb</Output>
+      <Time>2014-05-13T18:32:39.0292717+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Background\black.png</Source>
+      <Name>Menu\Background\black</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Background\black.xnb</Output>
+      <Time>2014-05-13T19:42:18.9773511+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Background\stars1.png</Source>
+      <Name>Menu\Background\stars1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Background\stars1.xnb</Output>
+      <Time>2014-05-13T19:42:18.9783511+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Background\stars2.png</Source>
+      <Name>Menu\Background\stars2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Background\stars2.xnb</Output>
+      <Time>2014-05-13T19:42:18.976351+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Background\stars3.png</Source>
+      <Name>Menu\Background\stars3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Background\stars3.xnb</Output>
+      <Time>2014-05-13T20:46:32.9597863+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu\Background\stars4.png</Source>
+      <Name>Menu\Background\stars4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Menu\Background\stars4.xnb</Output>
+      <Time>2014-05-13T20:46:32.9577861+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Tiles\brick.png</Source>
+      <Name>Map\Tiles\brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Tiles\brick.xnb</Output>
+      <Time>2014-05-15T21:33:02.3414329+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Tiles\grass.png</Source>
+      <Name>Map\Tiles\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Tiles\grass.xnb</Output>
+      <Time>2014-07-17T20:39:31.7320694+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Tiles\water.png</Source>
+      <Name>Map\Tiles\water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Tiles\water.xnb</Output>
+      <Time>2014-05-15T21:33:02.396436+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Character\char_move.png</Source>
+      <Name>Character\char_move</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Character\char_move.xnb</Output>
+      <Time>2014-05-19T18:47:12.8504751+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Weapons\Swords\Longsword.png</Source>
+      <Name>Weapons\Swords\Longsword</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Weapons\Swords\Longsword.xnb</Output>
+      <Time>2014-05-20T20:08:31.7844156+10:00</Time>
+    </Item>
+    <Item>
+      <Source>weaponinfo_back.png</Source>
+      <Name>weaponinfo_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\weaponinfo_back.xnb</Output>
+      <Time>2014-05-19T22:46:09.264471+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Weapons\Swords\Dagger.png</Source>
+      <Name>Weapons\Swords\Dagger</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Weapons\Swords\Dagger.xnb</Output>
+      <Time>2014-05-20T20:08:32.5684605+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\particle_test.png</Source>
+      <Name>Particles\particle_test</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Particles\particle_test.xnb</Output>
+      <Time>2014-05-20T22:22:01.9115687+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\particle_test1.png</Source>
+      <Name>Particles\particle_test1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Particles\particle_test1.xnb</Output>
+      <Time>2014-05-20T22:55:46.1603491+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\particle_test2.png</Source>
+      <Name>Particles\particle_test2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Particles\particle_test2.xnb</Output>
+      <Time>2014-05-20T22:58:06.3023648+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\common_particle.png</Source>
+      <Name>Particles\common_particle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Particles\common_particle.xnb</Output>
+      <Time>2014-05-20T23:45:35.1953121+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\particle_test64x128.png</Source>
+      <Name>Particles\particle_test64x128</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Particles\particle_test64x128.xnb</Output>
+      <Time>2014-05-21T10:45:27.7220268+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\particle_test_legendary.png</Source>
+      <Name>Particles\particle_test_legendary</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Particles\particle_test_legendary.xnb</Output>
+      <Time>2014-05-22T09:24:42.671054+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Inventory\inventory_back.png</Source>
+      <Name>Inventory\inventory_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Inventory\inventory_back.xnb</Output>
+      <Time>2014-05-23T18:36:47.8748942+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Inventory\inventory_slot.png</Source>
+      <Name>Inventory\inventory_slot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Inventory\inventory_slot.xnb</Output>
+      <Time>2014-07-13T17:54:48.8791671+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Weapons\Axes\Battleaxe.png</Source>
+      <Name>Weapons\Axes\Battleaxe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Weapons\Axes\Battleaxe.xnb</Output>
+      <Time>2014-05-25T17:50:10.1792+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Weapons\Spears\Lightning.png</Source>
+      <Name>Weapons\Spears\Lightning</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Weapons\Spears\Lightning.xnb</Output>
+      <Time>2014-05-26T11:51:36.4880659+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Particles\lightningparticle.png</Source>
+      <Name>Particles\lightningparticle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Particles\lightningparticle.xnb</Output>
+      <Time>2014-05-26T11:51:47.4704852+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Stats\bar_depleted.png</Source>
+      <Name>HUD\Stats\bar_depleted</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Stats\bar_depleted.xnb</Output>
+      <Time>2014-05-26T20:09:00.934131+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Stats\healthbar.png</Source>
+      <Name>HUD\Stats\healthbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Stats\healthbar.xnb</Output>
+      <Time>2014-05-26T20:09:00.9301308+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Tiles\special.png</Source>
+      <Name>Map\Tiles\special</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Tiles\special.xnb</Output>
+      <Time>2014-05-29T18:24:56.3008666+10:00</Time>
+    </Item>
+    <Item>
+      <Source>mouse.png</Source>
+      <Name>mouse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\mouse.xnb</Output>
+      <Time>2014-06-01T14:27:21.0764377+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Foliage\Grass1.png</Source>
+      <Name>Map\Foliage\Grass1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Foliage\Grass1.xnb</Output>
+      <Time>2014-06-01T15:43:58.9764226+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Foliage\Grass2.png</Source>
+      <Name>Map\Foliage\Grass2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Foliage\Grass2.xnb</Output>
+      <Time>2014-06-01T15:43:58.9824229+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Foliage\Tree1.png</Source>
+      <Name>Map\Foliage\Tree1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Foliage\Tree1.xnb</Output>
+      <Time>2014-06-01T15:43:58.9724223+10:00</Time>
+    </Item>
+    <Item>
+      <Source>rectangleOverlay.png</Source>
+      <Name>rectangleOverlay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\rectangleOverlay.xnb</Output>
+      <Time>2014-06-02T13:03:03.4780014+10:00</Time>
+    </Item>
+    <Item>
+      <Source>wall1.png</Source>
+      <Name>wall1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\wall1.xnb</Output>
+      <Time>2014-06-03T11:37:54.0201562+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\Doors\Door.png</Source>
+      <Name>Map\Doors\Door</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Map\Doors\Door.xnb</Output>
+      <Time>2014-06-03T16:52:34.4260536+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Stats\expbar.png</Source>
+      <Name>HUD\Stats\expbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Stats\expbar.xnb</Output>
+      <Time>2014-07-03T14:22:30.0218162+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Backs\placeholder_back.png</Source>
+      <Name>HUD\Backs\placeholder_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Backs\placeholder_back.xnb</Output>
+      <Time>2014-07-10T17:09:55.9693651+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Backs\box_frame.png</Source>
+      <Name>HUD\Backs\box_frame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Backs\box_frame.xnb</Output>
+      <Time>2014-07-10T22:07:58.1391667+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Stats\moneybar.png</Source>
+      <Name>HUD\Stats\moneybar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Stats\moneybar.xnb</Output>
+      <Time>2014-07-10T22:47:08.0375732+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Stats\staminabar.png</Source>
+      <Name>HUD\Stats\staminabar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Stats\staminabar.xnb</Output>
+      <Time>2014-07-10T22:50:09.3569441+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Stats\manabar.png</Source>
+      <Name>HUD\Stats\manabar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Stats\manabar.xnb</Output>
+      <Time>2014-07-10T22:50:13.9632075+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Placeholders\bar_currency_icon.png</Source>
+      <Name>Placeholders\bar_currency_icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Placeholders\bar_currency_icon.xnb</Output>
+      <Time>2014-07-11T14:14:00.5027855+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Placeholders\player_death.png</Source>
+      <Name>Placeholders\player_death</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Placeholders\player_death.xnb</Output>
+      <Time>2014-07-11T16:32:26.6548702+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Placeholders\stats_back.png</Source>
+      <Name>Placeholders\stats_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Placeholders\stats_back.xnb</Output>
+      <Time>2014-07-13T17:55:22.0170625+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Placeholders\hand.png</Source>
+      <Name>Placeholders\hand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Placeholders\hand.xnb</Output>
+      <Time>2014-07-14T14:28:47.7124801+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Weapons\Hand.png</Source>
+      <Name>Weapons\Hand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Weapons\Hand.xnb</Output>
+      <Time>2014-07-16T13:22:32.6204265+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Inventory\inventory_slot2.png</Source>
+      <Name>Inventory\inventory_slot2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Inventory\inventory_slot2.xnb</Output>
+      <Time>2014-07-16T13:24:30.9461944+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Inventory\inventory_back2.png</Source>
+      <Name>Inventory\inventory_back2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Inventory\inventory_back2.xnb</Output>
+      <Time>2014-07-17T19:39:38.9915764+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Backs\stats_back.png</Source>
+      <Name>HUD\Backs\stats_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Backs\stats_back.xnb</Output>
+      <Time>2014-07-17T20:59:14.2727069+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Backs\stats_tp.png</Source>
+      <Name>HUD\Backs\stats_tp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Backs\stats_tp.xnb</Output>
+      <Time>2014-07-17T21:13:20.284096+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Backs\stats_white.png</Source>
+      <Name>HUD\Backs\stats_white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Backs\stats_white.xnb</Output>
+      <Time>2014-07-17T21:13:20.2940965+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\coin.png</Source>
+      <Name>HUD\coin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\coin.xnb</Output>
+      <Time>2014-07-17T21:19:10.5551303+10:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD\Backs\stats_tp_r.png</Source>
+      <Name>HUD\Backs\stats_tp_r</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\HUD\Backs\stats_tp_r.xnb</Output>
+      <Time>2014-07-17T21:28:31.2311992+10:00</Time>
+    </Item>
+    <Item>
+      <Source>debugFont.spritefont</Source>
+      <Name>debugFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\debugFont.xnb</Output>
+      <Time>2014-05-16T14:19:59.6234488+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\gameOverFont.spritefont</Source>
+      <Name>Font\gameOverFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Font\gameOverFont.xnb</Output>
+      <Time>2014-07-17T08:46:32.9360956+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\menu.MP3</Source>
+      <Name>Music\menu</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Music\menu.xnb</Output>
+      <Extra>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Music\menu.wma</Extra>
+      <Time>2014-05-18T18:02:34.7383165+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\gameOver.MP3</Source>
+      <Name>Music\gameOver</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Music\gameOver.xnb</Output>
+      <Extra>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Music\gameOver.wma</Extra>
+      <Time>2014-07-11T21:48:17.1527767+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Video\gameOverScreen.wmv</Source>
+      <Name>Video\gameOverScreen</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Video\gameOverScreen.xnb</Output>
+      <Extra>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\Video\gameOverScreen.wmv</Extra>
+      <Time>2014-07-11T22:29:49.3133201+10:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAMEContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design &amp; Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAME\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T11:41:18+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T11:41:18+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T11:41:18+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-03-06T16:21:29.431704+11:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

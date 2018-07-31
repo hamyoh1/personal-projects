@@ -1,0 +1,25 @@
+v1.00 - Added initial framework of the game, update and draw functions, printing out a level to the screen.
+
+v1.01 - Added the player, prints correctly to console without misalignment of printed level text.
+
+v1.02 - Added movement to player as well as boundaries to prevent going outside level, once player touches edges player loops around.
+
+v1.03 - Apples now randomly spawn into an array, with a random position governed by the level size.
+
+v1.04 - Apples now draw to console CORRECTLY, movement mimics that of the original Snake game.
+
+v1.05 - Running over apples now removes them from array and increments score.
+
+v1.06 - Player's length added to when apple is eaten, and drawn to console correctly.
+
+v1.07 - Final version, player can now lose, variable width and height applied to level.
+
+Fixed Issues:
+- Apples won't draw to console.
+- Apples draw to console but shift text across.
+- Movement not automatic like real Snake game.
+
+
+To-Do:
+- Add to player's length when apple is eaten.
+- Add a way for player to lose (i.e player running into self).

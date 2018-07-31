@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items> <!-- All items in the game are stored here under <Weapon>, <Armour>, <Consumable>, etc... tags to define their type-->
+  <weapons>
+    <Weapon>
+      <Name>Hand</Name>
+      <ItemTexture>Weapons/Hand</ItemTexture>
+      <Type>Fist</Type>
+      <Worth>Everyone has 2</Worth>
+      <LevelReq>0</LevelReq>
+      <ItemID>001</ItemID>
+      <Is2Hand>false</Is2Hand>
+      <Damage>5</Damage>
+      <Speed>5</Speed>
+      <Price>0</Price>
+      <Description>I hope this is yours.</Description>
+    </Weapon>
+    
+    <Weapon>
+      <Name>Hamett's Longsword</Name>
+      <ItemTexture>Weapons/Swords/Longsword</ItemTexture>
+      <Type>Longsword</Type>
+      <Worth>Legendary</Worth>
+      <LevelReq>6</LevelReq>
+      <ItemID>002</ItemID>
+      <Is2Hand>false</Is2Hand>
+      <Damage>15</Damage>
+      <Speed>10</Speed>
+      <Price>1000</Price>
+      <Description>Forged in volcanic magma, this sword and it's owner are the heroes of many legends.</Description>
+    </Weapon> <!-- Hamett's Longsword-->
+  
+    <Weapon>
+      <Name>Barramid's Shortsword</Name>
+      <ItemTexture>Weapons/Swords/Dagger</ItemTexture>
+      <Type>Shortsword</Type>
+      <Worth>Rare</Worth>
+      <LevelReq>3</LevelReq>
+      <ItemID>003</ItemID>
+      <Is2Hand>false</Is2Hand>
+      <Damage>10</Damage>
+      <Speed>25</Speed>
+      <Price>850</Price>
+      <Description></Description>
+    </Weapon> <!-- Barramid's Shortsword-->
+
+    <Weapon>
+      <Name>Vincrendo</Name>
+      <ItemTexture>Weapons/Axes/Battleaxe</ItemTexture>
+      <Type>Battleaxe</Type>
+      <Worth>Uncommon</Worth>
+      <LevelReq>12</LevelReq>
+      <ItemID>004</ItemID>
+      <Is2Hand>false</Is2Hand>
+      <Damage>17</Damage>
+      <Speed>12</Speed>
+      <Price>1250</Price>
+      <Description></Description>
+    </Weapon> <!-- Vincrendo-->
+
+    <Weapon>
+      <Name>Zeus' Masterbolt</Name>
+      <ItemTexture>Weapons/Spears/Lightning</ItemTexture>
+      <Type>Spear</Type>
+      <Worth>Legendary</Worth>
+      <LevelReq>110</LevelReq>
+      <ItemID>005</ItemID>
+      <Is2Hand>true</Is2Hand>
+      <Damage>750</Damage>
+      <Speed>20</Speed>
+      <Price>700000</Price>
+      <Description></Description>
+    </Weapon> <!-- Zeus' Masterbolt-->
+  </weapons><!-- ALL WEAPONS-->
+
+  <armour>
+    <Shield>
+      <Name>Wooden Shield</Name>
+      <ItemTexture>Armour/Shields/Wooden_Shield</ItemTexture>
+      <Type>Shield</Type>
+      <Worth>Common</Worth>
+      <LevelReq>1</LevelReq>
+      <ItemID>006</ItemID>
+    </Shield>
+  </armour>
+</Items>

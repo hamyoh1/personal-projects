@@ -1,0 +1,3 @@
+D:\XNA GAMES\CLASSES_GAME\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\HonourInBloodContent.contentprojResolveAssemblyReference.cache
+F:\XNA GAMES\CLASSES_GAME\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\HonourInBloodContent.contentprojResolveAssemblyReference.cache
+C:\Users\Zac\Desktop\School\Assignments\Y12\Term 3\Software Design & Development\HonourInBlood\Honour In Blood (Source Code)\Honour In Blood\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\HonourInBloodContent.contentprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+H:\XNA GAMES\CLASSES_GAME\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\CLASSES_GAMEContent.contentprojResolveAssemblyReference.cache
+J:\XNA GAMES\CLASSES_GAME\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\CLASSES_GAMEContent.contentprojResolveAssemblyReference.cache
+F:\XNA GAMES\CLASSES_GAME\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\CLASSES_GAMEContent.contentprojResolveAssemblyReference.cache
+E:\XNA GAMES\CLASSES_GAME\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\CLASSES_GAMEContent.contentprojResolveAssemblyReference.cache
+D:\XNA GAMES\CLASSES_GAME\CLASSES_GAME\CLASSES_GAMEContent\obj\x86\Debug\CLASSES_GAMEContent.contentprojResolveAssemblyReference.cache
