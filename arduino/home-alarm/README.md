@@ -16,7 +16,7 @@ This project is still in development and will have the following features:
   * If alarm is triggered and you are notified via your mobile device, notification will have an option to go to the camera live feed
   
 Current tasklist:
-[x] Install LCD screen with a 74HC595 shift register to decrease number of required pins
-[] Program LCD menu that can be navigated with rotary encoder
-[] Install keypad with resistor set-up to enable the use of a single analog pin for input (as opposed to 8 pins)
-[] Determine how to install VGA camera to reduce number of required pins
+- [x] Install LCD screen with a 74HC595 shift register to decrease number of required pins
+- [ ] Program LCD menu that can be navigated with rotary encoder
+- [ ] Install keypad with resistor set-up to enable the use of a single analog pin for input (as opposed to 8 pins)
+- [ ] Determine how to install VGA camera to reduce number of required pins
