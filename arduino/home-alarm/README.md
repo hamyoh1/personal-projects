@@ -18,6 +18,8 @@ This project is still in development and will have the following features:
   
 Current tasklist:
 - [x] Install PIR motion sensor
+- [x] Install RGB LED with status indicators
+- [x] Install buzzer and enable through PIR motion sensor triggering
 - [x] Install LCD screen with a 74HC595 shift register to decrease number of required pins
 - [ ] Program LCD menu that can be navigated with rotary encoder
 - [ ] Install keypad with resistor set-up to enable the use of a single analog pin for input (as opposed to 8 pins)
