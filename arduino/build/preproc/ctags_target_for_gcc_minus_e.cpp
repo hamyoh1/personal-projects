@@ -1,3 +1,47 @@
+# 1 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\Joystick.cpp"
+# 1 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\Joystick.cpp"
+# 2 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\Joystick.cpp" 2
+
+Joystick::Joystick(int _pin_x, int _pin_y, float _dz_x, float _dz_y) {
+    pin_x = _pin_x;
+    pin_y = _pin_y;
+    dz_x = _dz_x;
+    dz_y = _dz_y;
+}
+
+Joystick::~Joystick() { }
+
+void Joystick::update() {
+  // Read data from analog pins
+  x = analogRead(pin_x);
+  y = analogRead(pin_y);
+
+  // Map range from [0,1024] to [-1,1]
+  x = (float)(x - 512)/512.0;
+  y = (float)(y - 512)/512.0;
+
+  // If within deadzone, set to 0, otherwise scale to [0, 1]
+  if (((x)>0?(x):-(x)) < dz_x) {
+    x = 0;
+  } else {
+    if (x > 0) {
+      x = (float)((x - dz_x) / (1 - dz_x));
+    } else {
+      x = (float)((x + 1) / (1 - dz_x)) - 1;
+    }
+  }
+
+  if (((y)>0?(y):-(y)) < dz_y) {
+    y = 0;
+  } else {
+    if (y > 0) {
+      y = (float)((y - dz_y) / (1 - dz_y));
+    } else {
+      y = (float)((y + 1) / (1 - dz_y)) - 1;
+    }
+  }
+}
+# 1 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
 /*
  Controlling a servo position using a potentiometer (variable resistor)
  by Michal Rinott <http://people.interaction-ivrea.it/m.rinott>
@@ -7,62 +51,61 @@
  http://www.arduino.cc/en/Tutorial/Knob
 */
 
-#include <Servo.h>
-#include <SPI.h>
-#include <Adafruit_GFX.h>
-#include <TFT_ILI9163C.h>
+# 11 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino" 2
+# 12 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino" 2
+# 13 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino" 2
+# 14 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino" 2
 
-#include "RobotServo.hpp"
+# 16 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino" 2
 
 // Color definitions
-#define BLACK   0x0000
-#define BLUE    0x001F
-#define RED     0xF800
-#define GREEN   0x07E0
-#define CYAN    0x07FF
-#define MAGENTA 0xF81F
-#define YELLOW  0xFFE0  
-#define WHITE   0xFFFF
-
-#define PADDING "      "
-
-#define DEADZONE_X 0.05
-#define DEADZONE_Y 0.05
-
+# 32 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
 // Will eventually set this in menus on the LCD
-#define SERVO_MAX_SPEED 120
 
-#define SERVO_MAX_LIMIT 2300
-#define SERVO_MIN_LIMIT 544
 
-#define SERVO_UPDATE_INTERVAL 0  // In microseconds
+
+
+
+
 
 // Digital Pin Definitions
-#define __CS 10
-#define __DC 9
-#define __RST 12
+
+
+
 
 // Analog Pin Definitions
 // Joystick 1 X - Base rotation
 // Joystick 1 Y - Base arm rotation
-#define __J1_X A2
-#define __J1_Y A1
+
+
 
 // Joystick 2 X - Link 1 rotation (?)
 // Joystick 2 Y - Gripper rotation (for later)
-#define __J2_X A3
-#define __J2_Y A4
 
-TFT_ILI9163C tft = TFT_ILI9163C(__CS, __DC,__RST);
 
-Joystick j1(__J1_X, __J1_Y, DEADZONE_X, DEADZONE_Y);
-Joystick j2(__J2_X, __J2_Y, DEADZONE_X, DEADZONE_Y);
 
-RobotServo SERVO__BASE(6, SERVO_UPDATE_INTERVAL, SERVO_MIN_LIMIT, SERVO_MAX_LIMIT);
-RobotServo SERVO__BASE_ARM(5, SERVO_UPDATE_INTERVAL, SERVO_MIN_LIMIT, SERVO_MAX_LIMIT);
-RobotServo SERVO__LINK_1(3, SERVO_UPDATE_INTERVAL, SERVO_MIN_LIMIT, SERVO_MAX_LIMIT);
-  
+TFT_ILI9163C tft = TFT_ILI9163C(10, 9,12);
+
+// struct Joystick {
+//   float j_x;  // X position of joystick
+//   float j_y;  // Y position of joystick
+//   bool j_sw;    // is switch pressed?
+//   int j_pin_x;    // pin of joystick x data on arduino
+//   int j_pin_y;    // pin of joystick y data on arduino
+// };
+
+Joystick j1(A2, A1, 0.05, 0.05);
+Joystick j2(A3, A4, 0.05, 0.05);
+
+RobotServo SERVO__BASE(6, 0 /* In microseconds*/, 544, 2300);
+RobotServo SERVO__BASE_ARM(5, 0 /* In microseconds*/, 544, 2300);
+RobotServo SERVO__LINK_1(3, 0 /* In microseconds*/, 544, 2300);
+
 void setup() {
+  // j1.j_pin_x = __J1_X;
+  // j1.j_pin_y = __J1_Y;
+  // j2.j_pin_x = __J2_X;
+  // j2.j_pin_y = __J2_Y;
 
   tft.begin();
   tft.fillScreen();
@@ -88,18 +131,18 @@ void loop() {
   j1.update();
   j2.update();
 
-  SERVO__BASE.update(j1.getX() * SERVO_MAX_SPEED);
-  SERVO__BASE_ARM.update(j1.getY() * SERVO_MAX_SPEED);
+  SERVO__BASE.update(j1.getX() * 120);
+  SERVO__BASE_ARM.update(j1.getY() * 120);
 }
 
 void servo_1() {
   //if (serv_1_val != prev_serv_1_val){
     tft.setCursor(3, 0);
-    tft.setTextColor(WHITE, BLACK);
+    tft.setTextColor(0xFFFF, 0x0000);
     tft.setTextSize(1);
     String out = "Servo #1 Pos: ";
     out = out + SERVO__BASE.getRotation();
-    out = out + PADDING;
+    out = out + "      ";
     tft.println(out);
     //delay(100);     // Reduce flickering by refreshing once every 0.5s
   //}
@@ -141,7 +184,7 @@ void servo_1() {
 //       j1.j_y = (float)((j1.j_y + 1) / (1 - DEADZONE_Y)) - 1;
 //     }
 //   }
-  
+
 //   if (abs(j2.j_x) < DEADZONE_X) {
 //     j2.j_x = 0;
 //   } else {
@@ -170,7 +213,7 @@ float clamp(float val, float min_val, float max_val) {
 }
 
 float degToUnits(float deg) {
-  return (deg * ((SERVO_MAX_LIMIT - SERVO_MIN_LIMIT) / 180));
+  return (deg * ((2300 - 544) / 180));
 }
 
 

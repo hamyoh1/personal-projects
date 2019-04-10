@@ -1,0 +1,97 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\Zac\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.6.23\\cores\\arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\Zac\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.6.23\\variants\\standard"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\build\\sketch\\Joystick.cpp.cpp",
+    "Include": "Servo.h",
+    "Includepath": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Servo\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\build\\sketch\\Joystick.cpp.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\Zac\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.6.23\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\build\\sketch\\Joystick.cpp.cpp",
+    "Include": "Adafruit_GFX.h",
+    "Includepath": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\build\\sketch\\Joystick.cpp.cpp",
+    "Include": "TFT_ILI9163C.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\libraries\\TFT_ILI9163C-master"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\build\\sketch\\Joystick.cpp.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\build\\sketch\\RobotServo.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Servo\\src\\avr\\Servo.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Servo\\src\\megaavr\\Servo.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Servo\\src\\nrf52\\Servo.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Servo\\src\\sam\\Servo.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Servo\\src\\samd\\Servo.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Servo\\src\\stm32f4\\Servo.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Zac\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.6.23\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library\\Adafruit_GFX.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library\\Adafruit_SPITFT.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "Z:\\Users\\Zac\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library\\glcdfont.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\TFT_ILI9163C-master\\TFT_ILI9163C.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]

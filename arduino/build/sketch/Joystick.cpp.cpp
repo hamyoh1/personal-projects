@@ -1,3 +1,48 @@
+#include <Arduino.h>
+#line 1 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\Joystick.cpp"
+#line 1 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\Joystick.cpp"
+#include "Joystick.hpp"
+
+Joystick::Joystick(int _pin_x, int _pin_y, float _dz_x, float _dz_y) {
+    pin_x = _pin_x;
+    pin_y = _pin_y;
+    dz_x = _dz_x;
+    dz_y = _dz_y;
+}
+
+Joystick::~Joystick() { }
+
+void Joystick::update() {
+  // Read data from analog pins
+  x = analogRead(pin_x);
+  y = analogRead(pin_y);
+
+  // Map range from [0,1024] to [-1,1]
+  x = (float)(x - 512)/512.0;
+  y = (float)(y - 512)/512.0;
+
+  // If within deadzone, set to 0, otherwise scale to [0, 1]
+  if (abs(x) < dz_x) {
+    x = 0;
+  } else {
+    if (x > 0) {
+      x = (float)((x - dz_x) / (1 - dz_x));
+    } else {
+      x = (float)((x + 1) / (1 - dz_x)) - 1;
+    }
+  }
+
+  if (abs(y) < dz_y) {
+    y = 0;
+  } else {
+    if (y > 0) {
+      y = (float)((y - dz_y) / (1 - dz_y));
+    } else {
+      y = (float)((y + 1) / (1 - dz_y)) - 1;
+    }
+  }
+}
+#line 1 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
 /*
  Controlling a servo position using a potentiometer (variable resistor)
  by Michal Rinott <http://people.interaction-ivrea.it/m.rinott>
@@ -28,6 +73,17 @@
 
 #define DEADZONE_X 0.05
 #define DEADZONE_Y 0.05
+#line 73 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
+void setup();
+#line 96 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
+void loop();
+#line 107 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
+void servo_1();
+#line 178 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
+float clamp(float val, float min_val, float max_val);
+#line 184 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
+float degToUnits(float deg);
+#line 73 "c:\\Users\\Zac\\Documents\\GitHub\\personal-projects\\arduino\\Robot Arm\\robot-arm.ino"
 
 // Will eventually set this in menus on the LCD
 #define SERVO_MAX_SPEED 120
@@ -55,6 +111,14 @@
 
 TFT_ILI9163C tft = TFT_ILI9163C(__CS, __DC,__RST);
 
+// struct Joystick {
+//   float j_x;  // X position of joystick
+//   float j_y;  // Y position of joystick
+//   bool j_sw;    // is switch pressed?
+//   int j_pin_x;    // pin of joystick x data on arduino
+//   int j_pin_y;    // pin of joystick y data on arduino
+// };
+
 Joystick j1(__J1_X, __J1_Y, DEADZONE_X, DEADZONE_Y);
 Joystick j2(__J2_X, __J2_Y, DEADZONE_X, DEADZONE_Y);
 
@@ -63,6 +127,10 @@ RobotServo SERVO__BASE_ARM(5, SERVO_UPDATE_INTERVAL, SERVO_MIN_LIMIT, SERVO_MAX_
 RobotServo SERVO__LINK_1(3, SERVO_UPDATE_INTERVAL, SERVO_MIN_LIMIT, SERVO_MAX_LIMIT);
   
 void setup() {
+  // j1.j_pin_x = __J1_X;
+  // j1.j_pin_y = __J1_Y;
+  // j2.j_pin_x = __J2_X;
+  // j2.j_pin_y = __J2_Y;
 
   tft.begin();
   tft.fillScreen();

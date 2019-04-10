@@ -1,0 +1,7 @@
+{
+    "programmer": "AVRISP mkII",
+    "output": "../build",
+    "board": "arduino:avr:uno",
+    "port": "COM3",
+    "sketch": "robot-arm.ino"
+}
