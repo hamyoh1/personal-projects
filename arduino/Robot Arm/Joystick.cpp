@@ -1,15 +1,23 @@
 #include "Joystick.hpp"
 
-Joystick::Joystick(int _pin_x, int _pin_y, float _dz_x, float _dz_y) {
+Joystick::Joystick(int _pin_x, int _pin_y, int _pin_sw, float _dz_x, float _dz_y) {
     pin_x = _pin_x;
     pin_y = _pin_y;
+    pin_sw = _pin_sw;
     dz_x = _dz_x;
     dz_y = _dz_y;
 }
 
 Joystick::~Joystick() { }
 
+void Joystick::jsSetup() {
+  pinMode(pin_sw, INPUT_PULLUP);
+}
+
 void Joystick::update() {
+  // If a button press has been registered, don't overwrite it until it has been processed
+  if (sw != LOW) sw = digitalRead(pin_sw);
+
   // Read data from analog pins
   x = analogRead(pin_x);
   y = analogRead(pin_y);
@@ -38,4 +46,10 @@ void Joystick::update() {
       y = (float)((y + 1) / (1 - dz_y)) - 1;
     }
   }
+}
+
+bool Joystick::getSwitch() {
+  bool temp = sw;
+  sw = HIGH; 
+  return temp;
 }

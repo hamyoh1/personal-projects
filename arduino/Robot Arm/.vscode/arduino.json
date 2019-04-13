@@ -3,5 +3,6 @@
     "output": "../build",
     "board": "arduino:avr:uno",
     "port": "COM3",
-    "sketch": "robot-arm.ino"
+    "sketch": "robot-arm.ino",
+    "logLevel": "verbose"
 }

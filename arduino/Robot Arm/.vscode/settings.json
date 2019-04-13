@@ -1,5 +1,6 @@
 {
     "C_Cpp.errorSquiggles": "Enabled",
+    "arduino.logLevel": "verbose",
     "files.associations": {
         "robotservo.h": "c"
     }

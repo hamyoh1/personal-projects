@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "Robot Arm"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"robotservo.h": "c"
+		}
+	}
+}
